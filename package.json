@@ -1,0 +1,20 @@
+{
+  "name": "ai-agent-toolbox",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node --env-file=.env scripts/build.mjs",
+    "release": "bash scripts/release.sh",
+    "lint": "npx eslint --fix .; npx prettier -l -w ."
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.4.1",
+    "glob": "^13.0.6",
+    "globals": "^17.6.0",
+    "jq": "^1.7.2",
+    "prettier": "^3.8.3",
+    "yaml": "^2.9.0"
+  }
+}

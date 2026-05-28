@@ -1,0 +1,6 @@
+marketplace.yaml: .agents/plugins/marketplace.yaml
+plugins/*/manifest.yaml: .codex-plugin/plugin.yaml
+plugins/*/AGENTS.md:
+plugins/*/.mpc.yaml:
+plugins/*/agents:
+plugins/*/skills:

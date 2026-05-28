@@ -1,0 +1,7 @@
+marketplace.yaml: .claude-plugin/marketplace.yaml
+plugins/*/manifest.yaml: .claude-plugin/plugin.yaml
+plugins/*/AGENTS.md: CLAUDE.md
+plugins/*/.mpc.yaml:
+plugins/*/agents:
+plugins/*/commands:
+plugins/*/skills:

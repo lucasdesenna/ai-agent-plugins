@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://www.schemastore.org/claude-code-marketplace.json
+
+name: sennas-toolbox
+description: AI agent extensions focused on software development and productivity, with some fun stuff sprinkled on top.
+
+interface:
+  displayName: Senna's Toolbox
+
+owner:
+  name: Lucas de Senna Correia
+  email: lucasdesenna@gmail.com
+
+plugins:
+  - name: llm-quests
+    version: 0.1.0
+    description: Quests are structured investigations for everyday software engineering work.
+    source: ./plugins/llm-quests
+    category: productivity

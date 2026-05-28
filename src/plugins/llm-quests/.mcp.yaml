@@ -1,0 +1,6 @@
+servers:
+  basic-memory:
+    command: uvx
+    args:
+      - basic-memory
+      - mcp
