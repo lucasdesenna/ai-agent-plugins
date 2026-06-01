@@ -1,0 +1,20 @@
+{
+  "name": "ai-agent-plugins",
+  "description": "Claude Code extensions focused on software development, productivity, and some fun stuff in between.",
+  "interface": {
+    "displayName": "Lucas' AI Agent Plugins"
+  },
+  "owner": {
+    "name": "Lucas de Senna Correia",
+    "email": "lucasdesenna@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "llm-quests",
+      "version": "0.1.0",
+      "description": "Quests are structured investigations for everyday software engineering work.",
+      "source": "./plugins/llm-quests",
+      "category": "productivity"
+    }
+  ]
+}

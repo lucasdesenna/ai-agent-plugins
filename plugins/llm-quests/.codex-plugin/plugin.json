@@ -1,0 +1,10 @@
+{
+  "name": "llm-quests",
+  "version": "0.1.0",
+  "description": "Quests are structured investigations for everyday software engineering work.",
+  "category": "productivity",
+  "owner": {
+    "name": "Lucas de Senna Correia",
+    "email": "lucasdesenna@gmail.com"
+  }
+}
