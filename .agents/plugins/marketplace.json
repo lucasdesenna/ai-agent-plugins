@@ -1,8 +1,8 @@
 {
-  "name": "ai-agent-plugins",
-  "description": "Claude Code extensions focused on software development, productivity, and some fun stuff in between.",
+  "name": "sennas-toolbox",
+  "description": "AI agent extensions focused on software development, productivity, and some fun stuff in between.",
   "interface": {
-    "displayName": "Lucas' AI Agent Plugins"
+    "displayName": "Senna's Toolbox"
   },
   "owner": {
     "name": "Lucas de Senna Correia",
