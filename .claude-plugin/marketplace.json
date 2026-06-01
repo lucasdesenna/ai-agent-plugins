@@ -1,6 +1,6 @@
 {
   "name": "sennas-toolbox",
-  "description": "AI agent extensions focused on software development, productivity, and some fun stuff in between.",
+  "description": "AI agent extensions focused on software development and productivity, with some fun stuff sprinkled on top.",
   "interface": {
     "displayName": "Senna's Toolbox"
   },
