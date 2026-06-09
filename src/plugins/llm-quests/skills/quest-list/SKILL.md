@@ -13,7 +13,7 @@ You are helping user see an overview of all their quests.
 ### Step 1: Run the listing script
 
 ```bash
-bash scripts/quest-list.sh
+bash "<current-skill-dir>/scripts/quest-list.sh"
 ```
 
 Outputs CSV with columns `id,title,phase,complexity,created,updated,path`, one row per quest, sorted by `updated` descending. Pass `--active` to hide quests whose phase is `complete`, `completed`, or `done`.
