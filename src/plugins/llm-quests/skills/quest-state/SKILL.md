@@ -10,9 +10,9 @@ This skill owns quest identity and lifecycle state. Use it before phase work and
 
 ## Workflow
 
-1. Resolve a quest id with `bash scripts/quest-resolve.sh <query>`. If no query was provided, run the quest-list skill. If script resolution is ambiguous, show the candidates and stop.
+1. Resolve a quest id with `bash "<current-skill-dir>/scripts/quest-resolve.sh" <query>`. If no query was provided, run the quest-list skill. If script resolution is ambiguous, show the candidates and stop.
 2. Load `quests/{id}/quest.md`. Read frontmatter first, then the relevant body sections for the current phase.
-3. Validate structure with `bash scripts/quest-validate.sh {id}` before acting on the quest.
+3. Validate structure with `bash "<current-skill-dir>/scripts/quest-validate.sh" {id}` before acting on the quest.
 4. Route phase work to the appropriate phase skill or agent:
    - `scouting` -> `quest-scouting`
    - `discovery` -> `quest-discovery`
@@ -21,7 +21,7 @@ This skill owns quest identity and lifecycle state. Use it before phase work and
    - `execution` -> `quest-execution`
    - `documentation` -> `quest-documentation`
    - `improvement` -> `quest-improvement`
-5. Apply final phase transitions only from the main session after reviewing phase output. Check `references/lifecycle.md`, then run `bash scripts/quest-transition.sh <from> <to>` for forward transitions.
+5. Apply final phase transitions only from the main session after reviewing phase output. Check `references/lifecycle.md`, then run `bash "<current-skill-dir>/scripts/quest-transition.sh" <from> <to>` for forward transitions.
 6. When changing the quest body or phase, bump `updated:` to today's `YYYY-MM-DD`.
 
 ## State Contract
